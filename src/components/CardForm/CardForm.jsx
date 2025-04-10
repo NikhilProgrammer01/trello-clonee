@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./cardForm.module.css";
+import styles from "./CardForm.module.css";
 
 const CardForm = ({ onSave, onCancel, editCard = null }) => {
   const [title, setTitle] = useState("");

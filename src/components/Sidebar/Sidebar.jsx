@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./sidebar.module.css";
+import styles from "./Sidebar.module.css";
 
 const Sidebar = ({
   activeFilters,

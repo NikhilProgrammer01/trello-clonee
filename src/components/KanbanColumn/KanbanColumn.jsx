@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import styles from "./kanbanColumn.module.css";
+import styles from "./KanbanColumn.module.css";
 import KanbanCard from "../KanbanCard/KanbanCard";
 
 const KanbanColumn = ({

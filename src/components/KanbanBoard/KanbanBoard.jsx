@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./kanbanBoard.module.css";
+import styles from "./KanbanBoard.module.css";
 import KanbanColumn from "../KanbanColumn/KanbanColumn";
 import Modal from "../modal/modal";
 import CardForm from "../cardForm/cardForm";

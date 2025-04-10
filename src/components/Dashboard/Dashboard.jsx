@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import styles from "./dashboard.module.css";
+import styles from "./Dashboard.module.css";
 import Sidebar from "../sidebar/sidebar";
 import Navbar from "../navbar/navbar";
-import KanbanBoard from "../kanbanBoard/kanbanBoard";
+import KanbanBoard from "../KanbanBoard/KanbanBoard";
 
 const Dashboard = () => {
   // State for active filters
