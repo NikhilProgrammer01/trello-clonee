@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./KanbanBoard.module.css";
 import KanbanColumn from "../KanbanColumn/KanbanColumn";
-import Modal from "../modal/modal";
-import CardForm from "../cardForm/cardForm";
+import Modal from "../Modal/Modal";
+import CardForm from "../CardForm/CardForm";
 
 const KanbanBoard = ({
   activeFilters = ["all"],

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Dashboard.module.css";
-import Sidebar from "../sidebar/sidebar";
-import Navbar from "../navbar/navbar";
+import Sidebar from "../Sidebar/Sidebar";
+import Navbar from "../Navbar/Navbar";
 import KanbanBoard from "../KanbanBoard/KanbanBoard";
 
 const Dashboard = () => {
