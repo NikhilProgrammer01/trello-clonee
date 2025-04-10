@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./kanbanBoard.module.css";
-import KanbanColumn from "../KanbanColumn/KanbanColumn";
+import KanbanColumn from "../KanbanColum/KanbanColumn";
 import Modal from "../modal/modal";
 import CardForm from "../cardForm/cardForm";
 
