@@ -1,0 +1,17 @@
+
+.dashboardContainer {
+  background-color: #f5f6f8;
+  width: 100vw;
+  height: 100vh;
+  font-family: Inter, sans-serif;
+  display: flex;
+  overflow: hidden; /* Prevent overflow at the dashboard level */
+}
+
+.mainContent {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+  overflow: hidden; /* Contain overflow within main content */
+}
+

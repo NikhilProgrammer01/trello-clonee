@@ -1,0 +1,247 @@
+.sidebarContainer {
+  background-color: #fff;
+  border-width: 0.8px;
+  border-color: #e1e4e8;
+  flex-direction: column;
+  width: 240px;
+  height: 100%;
+  display: flex;
+  font-family: Inter, sans-serif;
+  flex-shrink: 0;
+}
+
+.sidebarHeader {
+  color: #2d3748;
+  background-color: #fff;
+  border-width: 0.8px;
+  border-color: #e1e4e8;
+  height: 60px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarContent {
+  flex-direction: column;
+  padding: 24px;
+  display: flex;
+  overflow-y: auto;
+}
+
+.sectionTitle {
+  color: #000;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.boardsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.boardItem {
+  color: #4a5568;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.boardItem:hover {
+  background-color: #f7fafc;
+}
+
+.activeBoard {
+  background-color: #edf2f7;
+  color: #4318d1;
+  font-weight: 500;
+}
+
+.addBoardButton {
+  color: #4318d1;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.addBoardButton:hover {
+  background-color: #f7fafc;
+}
+
+.addBoardForm {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.addBoardInput {
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.addBoardInput:focus {
+  border-color: #4318d1;
+  box-shadow: 0 0 0 2px rgba(67, 24, 209, 0.1);
+}
+
+.addBoardActions {
+  display: flex;
+  gap: 8px;
+}
+
+.saveButton {
+  background-color: #4318d1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.saveButton:hover {
+  background-color: #3612b0;
+}
+
+.cancelButton {
+  background-color: transparent;
+  color: #718096;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.cancelButton:hover {
+  background-color: #f7fafc;
+}
+
+.workspaceGroup {
+  margin-bottom: 16px;
+}
+
+.workspaceLabel {
+  color: #4a5568;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.workspaceItems {
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  display: flex;
+}
+
+.workspaceItem {
+  color: #718096;
+  border-radius: 4px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.workspaceItem:hover {
+  background-color: #f7fafc;
+}
+
+.filterLabel {
+  color: #4a5568;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.labelContainer {
+  flex-wrap: wrap;
+  gap: 8px;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.label {
+  color: #fff;
+  background-color: #4318d1;
+  border-radius: 12px;
+  height: 26px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filterLabel {
+  border-radius: 12px;
+  height: 26px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.filterLabel:hover {
+  border-color: #4318d1;
+}
+
+.activeFilter {
+  border-color: transparent;
+}
+
+.membersSection {
+  margin-top: 32px;
+}
+
+.avatarContainer {
+  gap: 8px;
+  margin-top: 8px;
+  display: flex;
+}
+
+.avatar {
+  color: #fff;
+  background-color: #4318d1;
+  border-radius: 9999px;
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

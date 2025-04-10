@@ -1,0 +1,108 @@
+.navbarContainer {
+  background-color: #fff;
+  border-width: 0.8px;
+  border-color: #e1e4e8;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  font-family: Inter, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.viewOptions {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.boardName {
+  color: #2d3748;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.viewSeparator {
+  color: #cbd5e0;
+  margin: 0 4px;
+}
+
+.activeView {
+  color: #4318d1;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.inactiveView {
+  color: #718096;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.navbarActions {
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+
+.searchContainer {
+  border-width: 1px;
+  border-color: #e1e4e8;
+  border-radius: 4px;
+  align-items: center;
+  width: 300px;
+  height: 42px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+
+.searchInput {
+  color: #999;
+  background-color: transparent;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.actionButton {
+  color: #fff;
+  background-color: #4318d1;
+  border-radius: 4px;
+  height: 37px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  line-height: 21px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.actionButton:hover {
+  background-color: #3612b0;
+}
+
+.userAvatar {
+  color: #fff;
+  background-color: #4318d1;
+  border-radius: 9999px;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

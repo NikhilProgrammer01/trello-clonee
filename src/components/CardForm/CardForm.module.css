@@ -1,0 +1,98 @@
+.cardForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: Inter, sans-serif;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.input {
+  padding: 8px 12px;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4318d1;
+  box-shadow: 0 0 0 2px rgba(67, 24, 209, 0.2);
+}
+
+.labelsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.labelOption {
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 4px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.labelOption:hover {
+  border-color: #4318d1;
+}
+
+.labelOption.selected {
+  border-color: transparent;
+}
+
+.labelText {
+  font-weight: 500;
+}
+
+.formActions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.saveButton {
+  background-color: #4318d1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.saveButton:hover {
+  background-color: #3612b0;
+}
+
+.cancelButton {
+  background-color: transparent;
+  color: #718096;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cancelButton:hover {
+  background-color: #f7fafc;
+  border-color: #cbd5e0;
+}
